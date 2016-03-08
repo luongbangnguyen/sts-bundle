@@ -1,0 +1,325 @@
+{
+  "java": {
+    "version": "1.8.0_45",
+    "download": "http://www.oracle.com/technetwork/java/javaseproducts/downloads/index.html"
+  },
+  "eclipse": [
+    {
+      "version": "3.5.0",
+      "productVersionPattern": "1.2.0",
+      "minorName": "Galileo",
+      "site": "http://download.eclipse.org/releases/galileo/",
+      "stable": true
+    },
+    {
+      "version": "3.5.1",
+      "productVersionPattern": "1.2.1",
+      "minorName": "Galileo",
+      "microName": "SR1",
+      "site": "http://download.eclipse.org/releases/galileo/",
+      "stable": true
+    },
+    {
+      "version": "3.5.2",
+      "productVersionPattern": "1.2.2",
+      "minorName": "Galileo",
+      "microName": "SR2",
+      "site": "http://download.eclipse.org/releases/galileo/",
+      "stable": true
+    },
+    {
+      "version": "3.6.0",
+      "productVersionPattern": "1.3.0",
+      "minorName": "Helios",
+      "site": "http://download.eclipse.org/releases/helios/",
+      "stable": true
+    },
+    {
+      "version": "3.6.1",
+      "productVersionPattern": "1.3.1",
+      "minorName": "Helios",
+      "microName": "SR1",
+      "site": "http://download.eclipse.org/releases/helios/",
+      "stable": true
+    },
+    {
+      "version": "3.6.2",
+      "productVersionPattern": "1.3.2",
+      "minorName": "Helios",
+      "microName": "SR2",
+      "site": "http://download.eclipse.org/releases/helios/",
+      "stable": true
+    },
+    {
+      "version": "3.7.0",
+      "productVersionPattern": "1.4.0",
+      "minorName": "Indigo",
+      "site": "http://download.eclipse.org/releases/indigo/",
+      "stable": true
+    },
+    {
+      "version": "3.7.1",
+      "productVersionPattern": "1.4.1",
+      "minorName": "Indigo",
+      "microName": "SR1",
+      "site": "http://download.eclipse.org/releases/indigo/",
+      "stable": true
+    },
+    {
+      "version": "3.7.2",
+      "productVersionPattern": "1.4.2",
+      "minorName": "Indigo",
+      "microName": "SR2",
+      "site": "http://download.eclipse.org/releases/indigo/",
+      "stable": true
+    },
+    {
+      "version": "4.2.0",
+      "productVersionPattern": "1.5.0",
+      "minorName": "Juno",
+      "site": "http://download.eclipse.org/releases/juno/",
+      "stable": true
+    },
+    {
+      "version": "4.2.1",
+      "productVersionPattern": "1.5.1",
+      "minorName": "Juno",
+      "microName": "SR1",
+      "site": "http://download.eclipse.org/releases/juno/",
+      "stable": true
+    },
+    {
+      "version": "4.2.2",
+      "productVersionPattern": "1.5.2",
+      "minorName": "Juno",
+      "microName": "SR2",
+      "site": "http://download.eclipse.org/releases/juno/",
+      "stable": true
+    },
+    {
+      "version": "4.3.0",
+      "productVersionPattern": "2.0.0",
+      "minorName": "Kepler",
+      "site": "http://download.eclipse.org/releases/kepler/",
+      "stable": true
+    },
+    {
+      "version": "4.3.1",
+      "productVersionPattern": "2.0.1",
+      "minorName": "Kepler",
+      "microName": "SR1",
+      "site": "http://download.eclipse.org/releases/kepler/",
+      "stable": true
+    },
+    {
+      "version": "4.3.2",
+      "productVersionPattern": "2.0.2",
+      "minorName": "Kepler",
+      "microName": "SR2",
+      "site": "http://download.eclipse.org/releases/kepler/",
+      "stable": true
+    },
+    {
+      "version": "4.4.0",
+      "versionPattern": "4.4.0.20140612*",
+      "minorName": "Luna",
+      "site": "http://download.eclipse.org/releases/luna/",
+      "stable": true
+    },
+    {
+      "version": "4.4.1",
+      "versionPattern": "4.4.1.20140925*",
+      "minorName": "Luna",
+      "microName": "SR1",
+      "site": "http://download.eclipse.org/releases/luna/",
+      "stable": true
+    },
+    {
+      "version": "4.4.1a",
+      "versionPattern": "4.4.1.20150109*",
+      "minorName": "Luna",
+      "microName": "SR1a",
+      "site": "http://download.eclipse.org/releases/luna/",
+      "stable": true
+    },
+    {
+      "version": "4.4.2",
+      "versionPattern": "4.4.2.20150219*",
+      "minorName": "Luna",
+      "microName": "SR2",
+      "site": "http://download.eclipse.org/releases/luna/",
+      "stable": true
+    },
+    {
+      "version": "4.5.0",
+      "minorName": "Mars",
+      "site": "http://download.eclipse.org/releases/mars/",
+      "stable": false
+    }
+  ],
+  "products": [
+    {
+      "extensionUniqueIdentifier": "org.springsource.sts.ide",
+      "shortName": "STS",
+      "name": "Spring Tool Suite",
+      "fallbackUrl": "https://spring.io/tools/sts/all",
+      "platforms": [
+        {
+          "platformVersionPattern": "4.5",
+          "site": "http://dist.springsource.com/release/TOOLS/update/e4.5/",
+          "latestProductVersion": "3.6.4.20150310"
+        },
+        {
+          "platformVersionPattern": "4.4",
+          "site": "http://dist.springsource.com/release/TOOLS/update/e4.4/",
+          "latestProductVersion": "3.6.4.20150310"
+        },
+        {
+          "platformVersionPattern": "4.3",
+          "site": "http://dist.springsource.com/release/TOOLS/update/e4.3/",
+          "latestProductVersion": "3.6.4.20150310"
+        },
+        {
+          "platformVersionPattern": "4.2",
+          "site": "http://dist.springsource.com/release/TOOLS/update/e4.2/",
+          "latestProductVersion": "3.6.3.20141128"
+        },
+        {
+          "platformVersionPattern": "3.8",
+          "site": "http://dist.springsource.com/release/TOOLS/update/e3.8/",
+          "latestProductVersion": "3.6.3.20141128"
+        },
+        {
+          "platformVersionPattern": "3.7",
+          "site": "http://dist.springsource.com/release/TOOLS/update/e3.7/",
+          "latestProductVersion": "3.6.3.20141128"
+        }
+      ],
+      "versions": [
+        {
+          "version": "3.1.0.RELEASE",
+          "versionPattern": "3.1.0.20121006*",
+          "stable": true
+        },
+        {
+          "version": "3.2.0.RELEASE",
+          "versionPattern": "3.2.0.20130306*",
+          "stable": true
+        },
+        {
+          "version": "3.3.0.RELEASE",
+          "versionPattern": "3.3.0.20130709*",
+          "stable": true
+        },
+        {
+          "version": "3.4.0.RELEASE",
+          "versionPattern": "3.4.0.20131005*",
+          "stable": true
+        },
+        {
+          "version": "3.5.0.RELEASE",
+          "versionPattern": "3.5.0.20140401*",
+          "stable": true
+        },
+        {
+          "version": "3.5.1.RELEASE",
+          "versionPattern": "3.5.1.20140503*",
+          "stable": true
+        },
+        {
+          "version": "3.6.0.RELEASE",
+          "versionPattern": "3.6.0.20140710*",
+          "stable": true
+        },
+        {
+          "version": "3.6.1.RELEASE",
+          "versionPattern": "3.6.1.20140825*",
+          "stable": true
+        },
+        {
+          "version": "3.6.2.RELEASE",
+          "versionPattern": "3.6.2.20141009*",
+          "stable": true
+        },
+        {
+          "version": "3.6.3.RELEASE",
+          "versionPattern": "3.6.3.20141128*",
+          "stable": true
+        },
+        {
+          "version": "3.6.3.SR1",
+          "versionPattern": "3.6.3.20150112*",
+          "stable": true
+        },
+        {
+          "version": "3.6.4.RELEASE",
+          "versionPattern": "3.6.4.20150310*",
+          "stable": true
+        },
+        {
+          "version": "3.6.5",
+          "versionPattern": "3.6.5",
+          "stable": false
+        }
+      ]
+    },
+    {
+      //com.jboss.jbds.product.product is for JBoss Developer Studio 5.0.x
+      "extensionUniqueIdentifiers": ["com.jboss.devstudio.core.product", "com.jboss.jbds.product.product"],
+      "shortName": "JBDS",
+      "name": "JBoss Developer Studio",
+      "fallbackUrl": "http://tools.jboss.org/downloads/",
+      "versions": [
+        {
+          "version": "5.0.0.GA",
+          "versionPattern": "5.0.0.v20120615*",
+          "stable": true
+        },
+        {
+          "version": "8.0.0.GA",
+          "versionPattern": "8.0.0.GA-v20141020*",
+          "stable": true
+        }
+      ]
+    },
+    {
+      //com.genuitec.myeclipse.product.ide is for MyEclipse 2014
+      "extensionUniqueIdentifiers": ["com.genuitec.myeclipse.product.production.ide", "com.genuitec.myeclipse.product.ide"],
+      "shortName": "MyEclipse",
+      "name": "MyEclipse",
+      "fallbackUrl": "https://www.genuitec.com/products/myeclipse/download/",
+      "versions": [
+        {
+          "version": "2014 GA",
+          "versionPattern": "12.0.0.me201311281640",
+          "stable": true
+        },
+        {
+          "version": "2015 Stable 1.0",
+          "versionPattern": "13.0.0.me201501141551",
+          "stable": true
+        }
+      ]
+    }
+  ],
+  "optimizer": {
+    "id": "com.zeroturnaround.eclipse.optimizer.plugin",
+    "features": [
+      "com.zeroturnaround.eclipse.optimizer.feature"
+    ],
+    "version": "1.0.1",
+    "marketplaceUrl": "http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=2231050",
+    "updateSiteUrl": "http://update.zeroturnaround.com/free-tools/site/",
+    "changeLogUrl": "http://zeroturnaround.com/forums/topic/optimizer-for-eclipse-1-0-1-released/"
+  },
+  "jrebel": {
+    "id": "org.zeroturnaround.eclipse",
+    "features": [
+      "org.zeroturnaround.eclipse.feature",
+      "org.zeroturnaround.eclipse.wtp.feature",
+      "org.zeroturnaround.eclipse.m2e.feature"
+    ],
+    "marketplaceUrl": "http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=29591",
+    "updateSiteUrl": "http://update.zeroturnaround.com/update-site/"
+  }
+}

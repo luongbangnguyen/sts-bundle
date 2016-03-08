@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+  <extension point="org.eclipse.ui.commands">
+    <command id="com.zeroturnaround.eclipse.optimizer.plugin.commands.OpenPluginWindow" 
+           name="Optimizer for Eclipse"> 
+    </command>
+  </extension>
+
+  <extension point="org.eclipse.ui.handlers">
+    <handler class="com.zeroturnaround.eclipse.optimizer.plugin.OpenPluginWindowHandler" 
+         commandId="com.zeroturnaround.eclipse.optimizer.plugin.commands.OpenPluginWindow"> 
+    </handler>
+  </extension>
+
+  <extension point="org.eclipse.ui.commandImages">
+    <image commandId="com.zeroturnaround.eclipse.optimizer.plugin.commands.OpenPluginWindow" 
+           icon="icons/menu.png"> 
+    </image>
+  </extension>
+
+  <extension point="org.eclipse.ui.actionSets">
+    <actionSet label="Optimizer for Eclipse Action Set" visible="true"
+      id="com.zeroturnaround.eclipse.optimizer.plugin.actionSet">
+      <action label="&amp;Optimizer for Eclipse" icon="icons/menu.png"
+        class="com.zeroturnaround.eclipse.optimizer.plugin.OpenPluginWindowAction"
+        menubarPath="help/helpEnd"
+        id="com.zeroturnaround.eclipse.optimizer.plugin.OpenPluginWindowAction">
+      </action>
+    </actionSet>
+  </extension>
+
+  <extension point="org.eclipse.ui.startup">
+    <startup class="com.zeroturnaround.eclipse.optimizer.plugin.Startup" />
+  </extension>
+
+</plugin>

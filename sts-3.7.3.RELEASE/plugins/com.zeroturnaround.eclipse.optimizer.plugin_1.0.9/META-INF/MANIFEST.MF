@@ -1,0 +1,1479 @@
+Manifest-Version: 1.0
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: lib/gson-2.3.1.jar,lib/httpclient-4.4.jar,lib/httpco
+ re-4.4.jar,lib/commons-codec-1.10.jar,lib/jcl-over-slf4j-1.7.10.jar,l
+ ib/slf4j-api-1.7.10.jar,lib/slf4j-nop-1.7.10.jar,lib-test/mockito-all
+ -1.10.19.jar,.
+Built-By: zeroturnaround
+Eclipse-BundleShape: dir
+Bundle-Name: Eclipse Optimizer
+Created-By: Apache Maven 3.2.3
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7,JavaSE-1.6
+Require-Bundle: org.eclipse.ui;bundle-version="[3.6.0,4.0.0)",org.ecli
+ pse.core.runtime,org.eclipse.core.resources,org.eclipse.core.net,org.
+ eclipse.epp.mpc.ui;bundle-version="[1.0.0,2.0.0)";resolution:=optiona
+ l;visibility:=reexport,org.eclipse.equinox.p2.core;bundle-version="[2
+ .0.0,3.0.0)";resolution:=optional,org.eclipse.equinox.p2.engine;bundl
+ e-version="[2.0.0,3.0.0)";resolution:=optional,org.eclipse.equinox.p2
+ .metadata;bundle-version="[2.0.0,3.0.0)";resolution:=optional,org.ecl
+ ipse.equinox.p2.operations;bundle-version="[2.0.0,3.0.0)";resolution:
+ =optional,org.eclipse.equinox.p2.repository;bundle-version="[2.0.0,3.
+ 0.0)";resolution:=optional,org.eclipse.equinox.p2.ui;bundle-version="
+ [2.0.0,3.0.0)";resolution:=optional,org.eclipse.ui.forms;bundle-versi
+ on="[3.3.0,4.0.0)",org.junit;bundle-version="4.8.0";resolution:=optio
+ nal
+Bundle-Vendor: ZEROTURNAROUND
+Build-Jdk: 1.6.0_45
+Bundle-Version: 1.0.9
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.zeroturnaround.eclipse.optimizer.plugin.Activato
+ r
+Bundle-SymbolicName: com.zeroturnaround.eclipse.optimizer.plugin;singl
+ eton:=true
+Archiver-Version: Plexus Archiver
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/file
+ filter/CanReadFileFilter.class
+SHA1-Digest: V01/BB+C5N405MvmOHfuAamWLL4=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/WindowErrorStyle.
+ class
+SHA1-Digest: 1jWvCG665hOD73B4HGgRH83DDws=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/SignupBodyModel.c
+ lass
+SHA1-Digest: YfRmPJSn5pYDpeXA5pUJrNNNt/8=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/OpenPluginWindowHand
+ ler.class
+SHA1-Digest: qFJfD5SjOIaTvx539WeVdkhXJA8=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/SegmentIOBac
+ kend$HttpBackend.class
+SHA1-Digest: 3rsLjNXPyxjAEfnKs46ANF0j79M=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/outp
+ ut/NullOutputStream.class
+SHA1-Digest: Yckl+tnYHsnn8FThmWgFaurYgRs=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/WindowErrorModel$
+ MessageType.class
+SHA1-Digest: Kd9CKO7oGS2TPcfrIEJ1yMQsDpM=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/Notific
+ ationManager$1.class
+SHA1-Digest: oHcd/JUsqoI+l3k2XYwqF1iTQYU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/activities/InstallJR
+ ebel.class
+SHA1-Digest: fuBrVWJB0BWBu5pmGiBuLRMDqUo=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/FontManager.class
+SHA1-Digest: lCM8GCXm4rW8zlG8Kr2ntn26N/o=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/Notific
+ ationManager$7.class
+SHA1-Digest: oFGHJnjGeVxk3iFbfgbrvW0eaHU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/IssueActivityStat
+ usLabel.class
+SHA1-Digest: t8duN2mjFMrpCh81K112WHu+G4A=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/ZtButton.class
+SHA1-Digest: 345mPFZ4Va6ghWECcr+2MBcKRNo=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/IssuesBodyStyle.c
+ lass
+SHA1-Digest: tWI7WKMUb/u2Zl/QFsyYdz5djUU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/view/signup/Optio
+ nSet$1.class
+SHA1-Digest: p30Y6V0hOrW1oFndGwmWIL9bPF4=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/api/MetricsA
+ piImpl.class
+SHA1-Digest: yoDwR/PICN2eb8WVQJPyLxZny7s=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/view/signup/Signu
+ pForm$2$1.class
+SHA1-Digest: GkARJW3fqXwPd5DrTtUIoGZnAlA=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/OpenPlu
+ ginWindowRunnable$1.class
+SHA1-Digest: gZBboY4jlDEXrefE8mjkDngqW/E=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/signup/SignupRequest
+ .class
+SHA1-Digest: Fn0Vd7haHnXbWtbWKfA2y6dPNr0=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/api/People.c
+ lass
+SHA1-Digest: zGKHOjLMHM21ZA9YOZFUoWFnkLE=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/Notific
+ ationManager$3.class
+SHA1-Digest: mUpSF7bzbzDg8A7HzhlBkwNi64o=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/file
+ filter/FileFilterUtils.class
+SHA1-Digest: AOPbKL97QLxk97B8GAoFSliIDbc=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/PluginWindow.class
+SHA1-Digest: UHZ4eGynPACRdVpzvHiKGFcjUY0=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmArgu
+ mentType$3.class
+SHA1-Digest: lmJWXCw6pZtayJd8pVPetmC3Pcc=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ShellResizer$MyShell
+ Impl.class
+SHA1-Digest: DnZAgAbfVgUBnEAEEoZbpEasDkY=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/signup/ValidationFie
+ ldNames.class
+SHA1-Digest: cfdYbInvrGOiHXS7lxYmb5dYqRY=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/listeners/ZtClick
+ Listener.class
+SHA1-Digest: 9b6cx/yRwMjCf7zLKSbVm/A3vPY=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/WindowHeaderStyle
+ .class
+SHA1-Digest: oFbsU0/r7IuSrZOxCg9nrld55NI=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/EclipseMarketpl
+ aceUtil$SolutionInstallationInfo.class
+SHA1-Digest: ADZKtD0XNzPzu1OpHo6P62WFjbI=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/activities/TuneMemor
+ y.class
+SHA1-Digest: RwUTwJUx4tOYPb30FTfmMLDBvEo=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/ReportMessag
+ e$DetectedIssues.class
+SHA1-Digest: NGhoJnTSHRrM8fQhc5Zlx6q62rw=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/AbstractModel.class
+SHA1-Digest: uzVH0SEntvQ9ZUwnscTPjnzasLg=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/ReportMessag
+ e$SharedProperties.class
+SHA1-Digest: FmxI4//a1+1hHlFHmxZJ2fiQFTQ=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmArgu
+ mentType$14.class
+SHA1-Digest: 5O9tvHnd7HQYvr5DPo2tyobYpaM=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/OpenPlu
+ ginWindowRunnable.class
+SHA1-Digest: 1XjaRrebfJUn1lipmBsbQpwjHsM=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/styledtext/Cust
+ omStyledText$1.class
+SHA1-Digest: ovjx9lHdsdLsogKjVe10H6eYR9k=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/ZtHttpClient.cl
+ ass
+SHA1-Digest: WjvuJ0rnNW8bhMiSrYHgxDjv6Hg=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/version/FlexVer
+ sionMatcher.class
+SHA1-Digest: lhczF6G+0I8ywzjuIAnKzGQJdDw=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/IPreferences.cl
+ ass
+SHA1-Digest: ymUbo8F7dZB+yq0o+2zWUlc/Oeo=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/file
+ filter/CanWriteFileFilter.class
+SHA1-Digest: RcT/GizTMk0kWZxSZHW0hcBsLjU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/EclipsePlatform
+ .class
+SHA1-Digest: u4LfevAwh7ie5lYgCMtPWCz1fF4=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/EclipseVersion.
+ class
+SHA1-Digest: karzLw97e2blHZRl9zzS7IVtT0Y=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/api/MetricsA
+ pi.class
+SHA1-Digest: IlQIoZU/DIkxIwXKVL6PH40HvK4=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/styledtext/Styl
+ eRangeBuilder$1.class
+SHA1-Digest: 50CmA43w9Bpc+G+p/i1LcJITd+c=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/MemorySettings.
+ class
+SHA1-Digest: w+WQKTkK3d3gU0cPUftfynfSd1Q=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/ReportMessag
+ e$Shared.class
+SHA1-Digest: Oq2BfDXTl51q7vZjfIShG7E/gEk=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/file
+ filter/NotFileFilter.class
+SHA1-Digest: iFabTHlzbRw2MCY2JVVrFsWdTs8=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/SegmentIOBac
+ kend.class
+SHA1-Digest: EBRgc+kRMN+yPMfB5c+gxZ4QAP4=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmArgu
+ mentType$4.class
+SHA1-Digest: L/NxLKWEjBeeovPg6hHWJ+OlxiU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/SignupBody.class
+SHA1-Digest: MZ9jH5e7pmXWt3bhYyaGo6ubwF8=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/version/FlexVer
+ sionComparator.class
+SHA1-Digest: tMeMKEPPdEct+clG7axcRxQn3Yg=
+
+Name: close-dark-hover.png
+SHA1-Digest: 5ukefl5EKL9kUJ3bU6TZVa19Iis=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/file
+ filter/IOFileFilter.class
+SHA1-Digest: fLF4m/I/qB7c++UhgbCRf7fhyzw=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/Startup$1.class
+SHA1-Digest: M8CY3/l1s1erj01jj4T/d9lSbCQ=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/InstallPluginUt
+ il.class
+SHA1-Digest: hTgu7aGsyZUwjDmrZ9lBy5IFp9U=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/activities/ZtActivit
+ y.class
+SHA1-Digest: rk2cI9HK/FHc7LP7ZnZl44e+Ouo=
+
+Name: social/facebook.png
+SHA1-Digest: OFHQIrm82R6irxo7QjODX/hDCp8=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/eclipse/ini/Ecl
+ ipseOptionType.class
+SHA1-Digest: 7CHix6KHoU3CtTPdM5dYKOCFDII=
+
+Name: social/twitter.png
+SHA1-Digest: Tw5/t4/0BBPbExozlCNM/7StyyQ=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/WindowError$1.cla
+ ss
+SHA1-Digest: /F13SsYsNjTD2PpN3N6douISfPk=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/EclipseLogger.class
+SHA1-Digest: baESNibRjwMrn4tkjAmuivcoAoE=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/BrowserUtil.cla
+ ss
+SHA1-Digest: 23eV8a8M1mkHfKBAeMlsGpIrY+w=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/InstallPluginUt
+ il$InstallationMode$2.class
+SHA1-Digest: RBCZ0BPvPFhMcb0AvmWT/FtUPag=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/listeners/PluginW
+ indowCloseListener.class
+SHA1-Digest: ctvNtMnsj3ya0GGWP4gq5hMLiLQ=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/InfoMessageExcept
+ ion.class
+SHA1-Digest: zKpaxvigqNdZkHCdVyYlkqoLcgY=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/version/PrefixV
+ ersionMatcher.class
+SHA1-Digest: faPUJ8+238w6X+Nb11OYLXv7/Yg=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/Activator.class
+SHA1-Digest: sCX+m5IatdrHMMXEJSD63BRoDN8=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/SignupBodyStyle.c
+ lass
+SHA1-Digest: Sy9mmZUq8gYd2Wgpknjgy3OYIjk=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmArgu
+ mentType$7.class
+SHA1-Digest: MDKMq/FdbMv/7BiPB14s0Fn2dxo=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/InstallPluginUt
+ il$InstallationMode$1.class
+SHA1-Digest: p5g+z9ntI8bHulORCbUtW+Pxmis=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/TimePeriod.clas
+ s
+SHA1-Digest: 7IRP2PBJEDk85GToB1mZuZc5FCU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/signup/SignupRequest
+ $StatusCode.class
+SHA1-Digest: dMAc1xL+U+MsYLFoyUF1yfGubCQ=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/Versions$Optimi
+ zer.class
+SHA1-Digest: sDk7xonmr6jBmERYmRBOYWGbUKs=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/eclipse/ini/Ecl
+ ipseOptionType$1.class
+SHA1-Digest: Wl6PYKpkxG8CmXCJej/q1yV8VXY=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/ReportMessag
+ e$PerformanceProperties.class
+SHA1-Digest: hfc5HZbvaEqpSUEHWji8K0DBsh4=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/eclipse/ini/Jvm
+ ArgumentList.class
+SHA1-Digest: mkC9PMlhGk33UuXLRZoOlQsphDc=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ShellResizer.class
+SHA1-Digest: wN7CMJIxE2Fnokz7Ez+Xs0I8Vs4=
+
+Name: header-text.png
+SHA1-Digest: Xg3lRtqgIBSoX8Aq6l93AbaO7J4=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/Abstrac
+ tJvmArgument.class
+SHA1-Digest: 2AJ903fuQejgvhv6xVE1vXFdG8U=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/elements/ZtRounde
+ dComposite.class
+SHA1-Digest: f2b5pXzXq51oIdZGsId+yNDBuio=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/SimpleI
+ conButton.class
+SHA1-Digest: WlETQXJZBG0xau7Okgxxbw8Qfas=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/api/ClientDe
+ livery.class
+SHA1-Digest: TanPBCw/zfaQSeUfNTm7twe47ao=
+
+Name: icons/menu.png
+SHA1-Digest: epQ1y0Un9u2S/6SGJydoyzaU8zo=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/SegmentIOBac
+ kend$Identify.class
+SHA1-Digest: IbIohDGBJLPYrG2d0lw+a/pVFWI=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/lang/Sy
+ stemUtils.class
+SHA1-Digest: KVL0zq+ge5O20i+qVJFHzHXPGb4=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/view/signup/ScanR
+ esultsList.class
+SHA1-Digest: CwtXCVDGaFe0mLHl55KcSsQBc80=
+
+Name: versions.json
+SHA1-Digest: A2ztza7bIyLOqoQFpmrCsNumU8A=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/Versions$JRebel
+ .class
+SHA1-Digest: m1it+9dQycDQeydS1V23Zhrb04Q=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/PluginWindow$1.class
+SHA1-Digest: r/fG+x5qHekbqkdIhP3fRhj11bM=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/activities/UseLatest
+ ProductVersion.class
+SHA1-Digest: bvryGY02MEMqzQjVqxb+NNDQlb8=
+
+Name: META-INF/p2.inf
+SHA1-Digest: ySmyWFly/4zonhYDg1f/fP6OoGw=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/styledtext/Cust
+ omStyledText.class
+SHA1-Digest: PSv5NG9ZT1Aj3Kl7qTgUN1yfThU=
+
+Name: splash/pos-splash.png
+SHA1-Digest: WsGxx8tu5kFm+BQoBT0o1ASFXuA=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/styledtext/Styl
+ eRangeBuilder$2.class
+SHA1-Digest: lukgF4vjHHhTskU43tjUKdZLgJ8=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/PluginWindow$2.class
+SHA1-Digest: p0DdLTignuWolRCpmUgCPL8yqO4=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/ReportMessag
+ e$IssuesProperties.class
+SHA1-Digest: 53QiJJz9FK5irHPm7htxCl/O6Wo=
+
+Name: error.png
+SHA1-Digest: 3jKjE3jJD71ndCcKZ9Ip5Abuq9Q=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/elements/ZtTextbo
+ x.class
+SHA1-Digest: raO68gZgu8UNAULbmoZPsGPuxE8=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/Versions$Platfo
+ rm.class
+SHA1-Digest: tYxe7s+gKrI2uCIl04gGehbZaPo=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/DateUtil.class
+SHA1-Digest: RUzIZNGPzmkKCRBbLvEX3BqMmbA=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/Styles.class
+SHA1-Digest: fKee9R/Gj/u2erxu/rP6mVXkITk=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/signup/SignupDetails
+ .class
+SHA1-Digest: SaUGz7M85Q2kAAenYeZfwrbxQTU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/WindowFooterStyle
+ .class
+SHA1-Digest: 1OE0wKHT6NAk07GSqq5ARB4BsGs=
+
+Name: check-grey.png
+SHA1-Digest: 7sJE2ydfJ9xMHVh3rn2VTGbqF8w=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/File
+ ExistsException.class
+SHA1-Digest: 2cmRXBN75+2M3xMAHnr/eq2DNfU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/ZtImageLabel$1.cl
+ ass
+SHA1-Digest: Os+mhffRLwXnwVZznycJiBMSKDU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/outp
+ ut/StringBuilderWriter.class
+SHA1-Digest: h2xk1LZYtZobNGkR/AybQ2hrAjY=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/JavaVersionUtil
+ .class
+SHA1-Digest: PDbYPRv1XS+60caYD0lRdEQPs6w=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/version/Abstrac
+ tVersionMatcher.class
+SHA1-Digest: EPoqB+PDdJnHjLI5kpiNrPlCRzc=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/activities/UseLatest
+ Java.class
+SHA1-Digest: tDlOd4eulQqWxJ3+X1QVCArTSik=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/Notific
+ ationManager$2.class
+SHA1-Digest: DKWxVSgX/COMCoABNFLACpfLeh0=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ModelListeners.class
+SHA1-Digest: NDfBWXNYCiuVjspVLxtog4YxJ5Y=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/PluginWindow$3.class
+SHA1-Digest: jwftbI35YGpvdL/77TnhH3018JY=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/PlatformInfo.cl
+ ass
+SHA1-Digest: 706iq/LkO9ARvLbwDvaMJ+jlb1Y=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/file
+ filter/NameFileFilter.class
+SHA1-Digest: zlQBPCIigKzMtcIHgOr0CvFb6ds=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/WindowError$2.cla
+ ss
+SHA1-Digest: +XVBuOQOLBU2xpRr5PbonP3HK5s=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/signup/BackendValida
+ tionResult.class
+SHA1-Digest: oBPHTa0JRd1gf59P95T8624PHe0=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/ReportMessag
+ e.class
+SHA1-Digest: n0k2NWn9LEFIGVjIFS+HmbOIbaU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/Metrics$1.cl
+ ass
+SHA1-Digest: 5S52jwR5Il0VC97nDQaDdNvXx3Q=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/styledtext/Cust
+ omStyledText$3.class
+SHA1-Digest: y8XTWyKJNMLsjaozjV/RqbjRFOk=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/IssueActivity.cla
+ ss
+SHA1-Digest: /Gjt6AWcytfdGSz4KQjyPsdk2Yg=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/version/OsgiVer
+ sionUtil.class
+SHA1-Digest: Z+JdmjMOgpanNlpmKmHm1cLRjyA=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/WindowError$3.cla
+ ss
+SHA1-Digest: 4juL9NX8DIxkd4QC0AbmXuPvliM=
+
+Name: fonts/OpenSans-Light.ttf
+SHA1-Digest: QEQsGJVoGEtubCeiXWnxTZG2UDk=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/JRebelInfoUtil.
+ class
+SHA1-Digest: xHbuLgWIrli+64+EBr1zrsGubAM=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/WindowHeaderModel
+ $HeaderType.class
+SHA1-Digest: gGx+B7rTxWAYGyHe/7/1Aa4sKLQ=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/activities/DisableCl
+ assVerification.class
+SHA1-Digest: 0jsQCDA/QWbFn7bql8zQ1PbbqfI=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/listeners/WindowS
+ hellListener.class
+SHA1-Digest: zWnflVNT8OyFkJbgQ+q/GBJzx1U=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/FadeUtil$3.clas
+ s
+SHA1-Digest: qwsyTesgS1ONtLTsUKbGEihLsv4=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/EclipseMarketpl
+ aceUtil.class
+SHA1-Digest: cKl6DXvWUzUBLIlzf0TdhKKjP4c=
+
+Name: splash/neg-splash.png
+SHA1-Digest: foePuTNaewwvlAbURV0zgwjmgFE=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/eclipse/ini/Ecl
+ ipseParameterizedOption.class
+SHA1-Digest: uNLpANziNFt0onIl+h5Kcj/c4sI=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmArgu
+ mentType$5.class
+SHA1-Digest: DotXmhl9FB1q4CZxCsSlss6T2mo=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/Notific
+ ationManager$8$1$1$1.class
+SHA1-Digest: oXg68jeg6LvaUtnTvBvcLo6BT6o=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/PreferencesUtil
+ .class
+SHA1-Digest: RsyMtMlQe6tKXWmH5+lE1tNjaqU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/CacheInformatio
+ n.class
+SHA1-Digest: sw5us+svUoXVSKm8dvgZk5nYyYQ=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/ReportMessag
+ e$Started.class
+SHA1-Digest: YaUEBN+b5rX0zBdFl9wEYWP1ADM=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/elements/Validata
+ ble.class
+SHA1-Digest: YKJIyNcViNWVlv8kqvPb3OtE/h0=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/file
+ filter/AndFileFilter.class
+SHA1-Digest: D1KXjuqs7yTpXerXeUOj7YP4lsc=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmArgu
+ mentType$1.class
+SHA1-Digest: y2VGbDsWWhoWqiuZtoDrcF5NabU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/Notific
+ ationManager$8.class
+SHA1-Digest: H/tPuWUhoAvyI2v+E7TypZqsmHo=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/eclipse/ini/Ecl
+ ipseOptionList.class
+SHA1-Digest: OwLwdR7e1E71u4XH9b0TRIGzZ14=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmArgu
+ mentType$15.class
+SHA1-Digest: /nSFvmBW88w8dbf4WMzlr2a1rd0=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/view/signup/FormN
+ otificationArea.class
+SHA1-Digest: qGxl0AYOrQkwclFi10iq83WuKV0=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/ReportMessag
+ e$Uninstalled.class
+SHA1-Digest: 2Mz/kkLbe3SphV95zCnGu9xKiDk=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/ZtSeparator.class
+SHA1-Digest: LTzfpyseZteUDxpeehXElvBlhyQ=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/Versions.class
+SHA1-Digest: iuzgXi63+SQgfETHA29LbFeZz/w=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/file
+ filter/AbstractFileFilter.class
+SHA1-Digest: fx507rEfTuGIzzgYVavrdavvsCI=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/outp
+ ut/ByteArrayOutputStream.class
+SHA1-Digest: KuyQkh0GWxrm6O690iVTgPoE094=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmArgu
+ mentType$11.class
+SHA1-Digest: 870uHYWS+2xxogTe6RvmmG13uPQ=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmUnkn
+ ownArgument.class
+SHA1-Digest: O4iaz2XityEAKxpMVxmMtHoK28w=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/api/JsonUtil
+ .class
+SHA1-Digest: yZc7jEla5w9+yjVed6MjzvVxfN4=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/ZtButton$4.class
+SHA1-Digest: TA6upmsDb2StVEYfUDTO76uqwao=
+
+Name: validation-20x20.png
+SHA1-Digest: IwUZJVW64NiHOH8aBYgPXrAOyiw=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/file
+ filter/SizeFileFilter.class
+SHA1-Digest: 6WXGQeTCoLq6cSHPj4804mQNU9s=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/Notific
+ ationManager$7$1.class
+SHA1-Digest: KCEKUQ3cakBVMsuOy3frFL7Rg94=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/ZtImageLabel.clas
+ s
+SHA1-Digest: Cgf37Vl88m+Pt0SSvY3leSaQxcM=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/styledtext/Styl
+ eRangeBuilder$MatchHandler.class
+SHA1-Digest: JKYnXGYq9d1j/Z4lGPHG9vNpkL8=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/MetricsPrope
+ rty.class
+SHA1-Digest: emVlnCjy7d96YwXaFh4R5gUB0Qo=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/ZtButton$3.class
+SHA1-Digest: nuJeTK24z78InkqIJUVvfNcA49E=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/eclipse/ini/Opt
+ ionList.class
+SHA1-Digest: 5FFv/AzegayDanEy3Vb7FGisW+4=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/CacheUtil.class
+SHA1-Digest: 3au+r4wBjJqDMP9LibpxO2iveDQ=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/debug/ComponentVisua
+ lizer$2.class
+SHA1-Digest: CWEbugLVBARpVuYs3V45Rb0/oEM=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/IssueActivityMode
+ l.class
+SHA1-Digest: xAUE4a14WXEWSf71PnVf5nW425Q=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/Metrics.clas
+ s
+SHA1-Digest: 1lXZGCSAA4HmY4+xCOVKas414L8=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/ZtButton$1.class
+SHA1-Digest: WlIvcoAn9UXTkGF50gTpJKCAIp4=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/file
+ filter/PrefixFileFilter.class
+SHA1-Digest: jYJB/NhVTVYdtEfUU1CkiaRGA/o=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/view/signup/Signu
+ pForm$1.class
+SHA1-Digest: Bn95lZbvBrSXLH8DCKTJhnFa0xo=
+
+Name: lib/gson-2.3.1.jar
+SHA1-Digest: 7Lbh+OSw6ExLiGwvFKFQDK8wl1c=
+
+Name: icon-24x24.png
+SHA1-Digest: c+xi6tbOcsiovtiNIzo6oQJbElM=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/styledtext/Open
+ UrlLinkCallback$1.class
+SHA1-Digest: ic5rHaq2ls+jNzIBoYYvvhan8VM=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/activities/CleanCach
+ e.class
+SHA1-Digest: mis8ngJHUW+Z1eUZQF7dpnThzSc=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/debug/ComponentVisua
+ lizer$1.class
+SHA1-Digest: ctJF/jXuaoMRNJIQ0/jtRsrfeFs=
+
+Name: caution.png
+SHA1-Digest: F+O8QAyIMjZ8aX2f7aaukuymfiw=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/file
+ filter/SuffixFileFilter.class
+SHA1-Digest: qYk3TslgQ6Uffzk5IHURFypEjME=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/ZtHttpClientImp
+ l.class
+SHA1-Digest: iyoy2DN1RVkCkVbFARnEbsBzobQ=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/PluginWindowModel$Vi
+ ew.class
+SHA1-Digest: PGja58viqn5D7QAPU2S/pt/RfAU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/CustomFontUtil.
+ class
+SHA1-Digest: 2FOXmwdp0Nwz01eTJNvcOVhg3jM=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/file
+ filter/DirectoryFileFilter.class
+SHA1-Digest: UZrcpC1MvMpp7iF3nXDYPcYSg9g=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmArgu
+ mentType$17.class
+SHA1-Digest: YfrFEMRy7L30WOeOPUGyyyHtkAA=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/Startup$4$1.class
+SHA1-Digest: hVpPANwPKnzRmTN1ZATBDHIILzg=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/eclipse/ini/Ecl
+ ipseIni.class
+SHA1-Digest: 0Hli4yhBQAZVF+bbv5Jl842o2Ww=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/decide/Decid
+ e$Notification.class
+SHA1-Digest: UltyxOjAZJ0y+EyN9AtOkD34PZ4=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/PopupNo
+ tification$LinkCallback.class
+SHA1-Digest: 2JoTBNDnYa9zqh+BGlUnQvCAsrE=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/SerializableVal
+ ue.class
+SHA1-Digest: ZoLDtnRd+81SbDmMABO80YE44yY=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/WindowErrorModel$
+ MessageToShow.class
+SHA1-Digest: 4IXnHbWJn+Yl8g8r0wOINWBimbY=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/Char
+ sets.class
+SHA1-Digest: 7WmmtNzUUyoFbOmszTZzKTiGQ4I=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/version/Version
+ Matcher.class
+SHA1-Digest: TYJDJBxoTRtvwOFCX4Z1QuysH9c=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/Startup.class
+SHA1-Digest: 5kRQ1qvzXzZ5RHmTzUIiuLl3ujg=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/IOUt
+ ils.class
+SHA1-Digest: 1tmkhCAf081TAD96tBm9AOyOgnA=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/OptimizerPrefer
+ ences.class
+SHA1-Digest: EfzXFd0l4eTniJ5nzcU9LiKQYcs=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmNoPa
+ ramArgument.class
+SHA1-Digest: Ti6WQMmKaKYoh/XEeYUZNcSvKFE=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/InstallPluginUt
+ il$InstallationMode$3.class
+SHA1-Digest: BbcTI34kVg2pOrsZAwX5nja+5D0=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/inpu
+ t/ClosedInputStream.class
+SHA1-Digest: eU920uA+OlMRUiuuSr3MAfTNOR4=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/styledtext/Abst
+ ractRunnableFactory.class
+SHA1-Digest: hrs3rACOfuTqE3Dpeq9Nvm/HBtU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/file
+ filter/FileFileFilter.class
+SHA1-Digest: 2JmCRcirwIF4l+6Hfce8DlbrZO0=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/CustomLabel.class
+SHA1-Digest: qkDGtiPUx8gG3RPhAIvq5MFab7U=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/elements/ZtRounde
+ dComposite$1.class
+SHA1-Digest: XK409dq5WIte/+cXREqptryV3SE=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/IssueActivity$1.c
+ lass
+SHA1-Digest: +JXdVGHunZ1j0bOL+mC7aU5mEZo=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/SwtControlUtil.cl
+ ass
+SHA1-Digest: Xyfau7bi6FD0MhpdFfQqwBFm1Pw=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/styledtext/Runn
+ ableFactory.class
+SHA1-Digest: gvIsNxG46hReXXcQPXw7l99TlAs=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/WindowError.class
+SHA1-Digest: fBd1o76OIEJpLI0ri1rNYvtaoII=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/eclipse/ini/Ecl
+ ipseUnknownOption.class
+SHA1-Digest: 8ilNeN0Qamoqj2zzDP+IP8pHNgA=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/decide/Decid
+ e.class
+SHA1-Digest: zwWHNln3c3RgcL4Cvv1cWxSGp1Q=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/file
+ filter/ConditionalFileFilter.class
+SHA1-Digest: lTDnRTjEhuhmkghhYxaS1vXs5Zc=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/VersionsChecker
+ .class
+SHA1-Digest: dikfEsTWiYmuXRlRIWOFjV16oKk=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/version/Composi
+ teVersionMatcher.class
+SHA1-Digest: usYwCzGKdAwyXmBU+y2URWj217E=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/ZtButton$2.class
+SHA1-Digest: +lWskBqbyJyHuCCtrn73aMYnBEU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/EclipseProducts
+ .class
+SHA1-Digest: E7d6gCKcgePmXCd4FEdTkKuDyyI=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/file
+ filter/MagicNumberFileFilter.class
+SHA1-Digest: O4OORH9UrLyPfgdOovDPab+//VI=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/IssueActivityActi
+ on.class
+SHA1-Digest: fj8aAty8sSpCy4a0HMK2gJRGW0w=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/eclipse/ini/Opt
+ ionList$ParseHelper.class
+SHA1-Digest: iGZIKwlI/QatvVnXc1d64q61gnY=
+
+Name: information.png
+SHA1-Digest: zjKHw7mYeraM5KeoJ5p6q7qOysE=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/activities/ZtActivit
+ yStatus.class
+SHA1-Digest: L9d8dQkwAyxiB9/1DsW+DZMCiIw=
+
+Name: lib/commons-codec-1.10.jar
+SHA1-Digest: S5X0iX+hPyzZBK7nEa6vwMUpXNg=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/activities/InstallJR
+ ebel$1.class
+SHA1-Digest: Cfsc+IVMHLLiccsqH+71ZxS7+aU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/Line
+ Iterator.class
+SHA1-Digest: iYdH9bLw42F0ZqgHdzBy0NviAFA=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/view/signup/Signu
+ pFormData.class
+SHA1-Digest: /MHPsi+m5iENjJ/G9qqhSrBiN7M=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/Versions$Produc
+ t.class
+SHA1-Digest: WWcWPE2tzCECkElILahTMIncOuc=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmArgu
+ ment.class
+SHA1-Digest: CVfAuOWRMsj4Rs3OQ4Ttfg7sv8w=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/view/signup/Signu
+ pForm.class
+SHA1-Digest: gGojMLMO7BxGaCQF9IZd8gPNB3c=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/AbstractIssueActi
+ vity.class
+SHA1-Digest: qb/S73fceo+QauCpntsMXCLvgTk=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/debug/DebugComponent
+ .class
+SHA1-Digest: 1kW16Yo0qOr2Wyc8p8SrQAHkLWQ=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/InstallPluginUt
+ il$Callback.class
+SHA1-Digest: bPi2VdGn80e0TV50DN6NKorWV1g=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/elements/ZtCustom
+ Label.class
+SHA1-Digest: qCy9dUB9vCnZD7OiYHjqQZPt9Sk=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/elements/Selectab
+ leOption.class
+SHA1-Digest: 9/CtZ1a0P9ZAyNGuoHYYWAtOkro=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/elements/Selectab
+ leOption$3.class
+SHA1-Digest: athxrhgYSUR7O2ALF6ujAy0bF6k=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmVeri
+ fyArgumentType.class
+SHA1-Digest: BZh7lmuIKzdxTSCLhj8p5ewcezI=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/PluginWindowModel.cl
+ ass
+SHA1-Digest: cQyqEEy7OAOmkJ2vJoW0l9gjzEQ=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/IssuesBodyModel.c
+ lass
+SHA1-Digest: zqZpngboe3zAaIOaLutur94dt7c=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/activities/ZtActivit
+ yStyle.class
+SHA1-Digest: 2VVo3Cr15K3kfonGuRyg6qd6InE=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/PluginWindow$4.class
+SHA1-Digest: z37ceUyn+OOLux8lw/9BwVO1mKc=
+
+Name: close-dark.png
+SHA1-Digest: E2VhX1n3vc7RAs9y9IsLXKGbcBs=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmAgen
+ tArgument.class
+SHA1-Digest: 65Ea2st/n0ORErJZCK+2f9jnK64=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/Notific
+ ationManager$8$1$1.class
+SHA1-Digest: L7QCpotIXj1saz+qXb1KrDH/DCQ=
+
+Name: META-INF/maven/com.zeroturnaround.eclipse.optimizer/com.zeroturn
+ around.eclipse.optimizer.plugin/pom.xml
+SHA1-Digest: tL+sLAEAX56DyRLpS0W3RjHrRM4=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/File
+ nameUtils.class
+SHA1-Digest: LHzx4XpmM6yilkcYkpp9qugu6TA=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/lang/Ar
+ rayUtils.class
+SHA1-Digest: KfsgZEGASFuDO+ppGscj3C3FyYw=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/UIConstants.class
+SHA1-Digest: X23VLG1VPtP29D+qKNkvocnxHkk=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/ReportMessag
+ e$JRebelPresent.class
+SHA1-Digest: CZhhka4QZkIQ/mYjQY0n6X7LPNo=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/ByteUtil.class
+SHA1-Digest: nnMr70fdwDkbhWCZeUE+Zru8rqU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/IssuesBodyModel$R
+ estartButtonStatus.class
+SHA1-Digest: 8yj/sp/DJYylUqGY4Tqj5CE4LEo=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/IOCa
+ se.class
+SHA1-Digest: 9hIquOGW73pnfkb3UuA9zbLNYn8=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/ReportMessag
+ e$CommonProperties.class
+SHA1-Digest: eg0wpWSdvNaXaXV2TRDIbqj24Q0=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/SplashBody.class
+SHA1-Digest: 3otDe/erH0sjxnIf+T6Wh8ZHNS8=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/PopupNo
+ tification$2.class
+SHA1-Digest: OgVufpCryI+GkayOJTRwfIt6H3s=
+
+Name: lib/jsoup-1.7.2.jar
+SHA1-Digest: 1+J1ugWqOAyiVPctDA/+uu3Drc8=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ShellResizer$MyShell
+ .class
+SHA1-Digest: E/KXGGrtF7f2Ky+zMrL0nPYcGW0=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/IssuesBody$1.clas
+ s
+SHA1-Digest: RXbucaJOGIZwO6meJhvzW2+YCGs=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/elements/ZtNotifi
+ cationLabel.class
+SHA1-Digest: 5rj+JhEBZxD8ahRPU3wphRhcGsE=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/view/signup/Optio
+ nSet.class
+SHA1-Digest: 8EI9glDcuvC3cBs9/asyjhytEsQ=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmVeri
+ fyArgument.class
+SHA1-Digest: BJUERd14vCE5z4h+eFcwModdR70=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/version/ExactVe
+ rsionMatcher.class
+SHA1-Digest: CCmoYBoKab/YMr5mpKq4yGo2sVE=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/SystemInformati
+ on.class
+SHA1-Digest: 0DHcAEHXIFupofIEVZ4JyH8eo1A=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/Versions$Java.c
+ lass
+SHA1-Digest: oExz1SDelaYfFX3cyhwd/0/6ZMQ=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/eclipse/ini/Ecl
+ ipseOption.class
+SHA1-Digest: pYkXlWGaI0W9PX8DMJvtyQInrTc=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmArgu
+ mentType$9.class
+SHA1-Digest: gPT6pRws9itzKyHHQlU5EUAMPnI=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/SimpleI
+ conButton$1.class
+SHA1-Digest: j265CyVKEa0zUBfJyamafD4SDZQ=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/file
+ filter/OrFileFilter.class
+SHA1-Digest: PlIv22ExeOO3l0Al/ZdaML7xx0Y=
+
+Name: META-INF/maven/com.zeroturnaround.eclipse.optimizer/com.zeroturn
+ around.eclipse.optimizer.plugin/pom.properties
+SHA1-Digest: CGgkFJ79n2//D6wNuZZjuCFNYgQ=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmArgu
+ mentType$6.class
+SHA1-Digest: sJ6964IKFX8gxfsEc+jN7VSA/Do=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/FadeUtil.class
+SHA1-Digest: VB3mu+qZT+bkJTaVNh8uci/thbs=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/decide/Mixpa
+ nelBackend.class
+SHA1-Digest: 0wm46K5TU2MffhuPMkul6jN55Tw=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/ReportMessag
+ e$Signup.class
+SHA1-Digest: lxQLCB3v9xYXlZXi/W4mUd/AcpA=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmMemo
+ ryValue.class
+SHA1-Digest: YQ0o24Rypdv6oGXADZb7yHPksRM=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmArgu
+ mentType$12.class
+SHA1-Digest: n/gjStlxFez3TifabRPT7U01pgA=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/InstallPluginUt
+ il$InstallationMode.class
+SHA1-Digest: d/zggRO0txtfEWkDbCO4nurGsuc=
+
+Name: info.png
+SHA1-Digest: j7JYKIYkxwMZCweTUFLUDoAvrlA=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ShellResizer$EdgeTyp
+ e.class
+SHA1-Digest: Zb3n52RA72ffoPIMMnxzmwkxGv8=
+
+Name: check-green.png
+SHA1-Digest: Xrrrbtav+FDFSDt+mJFVUUSxjR4=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmMemo
+ ryUnit.class
+SHA1-Digest: IrpKpZP6OlZeYxpsJ1QmGgrRKBk=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/activities/UseLatest
+ ProductVersion$1.class
+SHA1-Digest: IqhicwBlWfK9p2VNJYpN8vLJKNA=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/eclipse/ini/Ecl
+ ipseSimpleOption.class
+SHA1-Digest: sqVu4CFFOaGC+LfGhWd0sllxnZk=
+
+Name: plugin.xml
+SHA1-Digest: 2c+EbQzcSitslNBeZWjWLd4a9BA=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/signup/SignupHelper.
+ class
+SHA1-Digest: zU29nCM3Xxi/+DyFGJWRad3C94o=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/file
+ filter/TrueFileFilter.class
+SHA1-Digest: 2busRL20Bw7bnWIg1+8A4DXa3GY=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/Notific
+ ationManager.class
+SHA1-Digest: QNWs5FOW82vvWXgDI7E15CVzpZU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/eclipse/ini/Ecl
+ ipseOptionList$1.class
+SHA1-Digest: XiVm/JEoJaKKmDqCi4M2/oJsATU=
+
+Name: lib/httpcore-4.4.jar
+SHA1-Digest: 6bOGP9nIonPO7Up/rhD0C7EKIyg=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/PopupNo
+ tification.class
+SHA1-Digest: Y5Qr6IZc30l7+Pf/OXjxZ6Tb5vY=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/IssueActivityActi
+ on$1.class
+SHA1-Digest: Fx4QMjU43jY2uDb1zRds3z/cBmw=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/elements/Selectab
+ leOption$2.class
+SHA1-Digest: 6I7ANhq8IizmoOcK/mcm7ipipYI=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmArgu
+ mentType$13.class
+SHA1-Digest: Q8XdmJfuNZnDgeDNF6vxpbDX9GI=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/ZtButtonStyle.cla
+ ss
+SHA1-Digest: J5VmvU+7hQ3SjIiW4gsoP8o1xck=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/debug/ComponentVisua
+ lizer.class
+SHA1-Digest: 3k8yAjlBQzY2/iQehqhWaejv05E=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/Startup$4.class
+SHA1-Digest: +tTxm1BuX5QzdTSgI9wyBDOpx5k=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/ZtSeparator$1.cla
+ ss
+SHA1-Digest: Kg4Z+8tLguahNCoFg6VN7zylcyE=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/WindowHeader.clas
+ s
+SHA1-Digest: caIayqfBWkSSplxinnDuMcg23+g=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/Notific
+ ationManager$5.class
+SHA1-Digest: 0OaETtsxOGeGnHOLQS3ibEt0qi0=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/view/signup/Signu
+ pForm$2.class
+SHA1-Digest: sW5rWBlkoZOwQ1Xb2fuOARO4n3Y=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/WindowFooter.clas
+ s
+SHA1-Digest: 1W7MDY/l8e08nhdvNeDkBoB7vTQ=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/signup/SignupRequest
+ $SignupStatus.class
+SHA1-Digest: aegTiZ+sggGFjjDXYd152oWdDFU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/ZtImageLabel$2.cl
+ ass
+SHA1-Digest: USiZkvQN48g8Frgz/LK6XqFbuj8=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/IssueActivity$1$1
+ .class
+SHA1-Digest: c4D4a6wHR6kd9TSUxcNZZZhwMe4=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/IssueActivity$1$2
+ .class
+SHA1-Digest: X4lCAjJsnpFqcktcfwyOarBD2Qs=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/Startup$3.class
+SHA1-Digest: UaYRPtnu6I+Gg5sYkMBsW6n/8+g=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmArgu
+ mentType.class
+SHA1-Digest: hDvot6kL4SNgeMdssy8H+9QZScM=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmArgu
+ mentType$8.class
+SHA1-Digest: RqYY5JZ59d/Qfb5X6y8/MokxNek=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/SplashBodyStyle.c
+ lass
+SHA1-Digest: cHBAfZ5eijP//2C4SmDL+/r3pL0=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/elements/Selectab
+ leOption$1.class
+SHA1-Digest: G/Y7hFxbu79eQw5sV0I6caJJHCU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/file
+ filter/FalseFileFilter.class
+SHA1-Digest: N3A3QahQvNOoVlaeJ6ei7aStNQ8=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmArgu
+ mentType$10.class
+SHA1-Digest: h6t7i3m1c2TbkMno7nhLF0BcUyE=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/Notific
+ ationManager$6.class
+SHA1-Digest: uCWSYoPJIaltxphhRVcvvrUGelo=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/EclipseP2UIUtil
+ .class
+SHA1-Digest: CDAoBE5l8nj3HChzT2ZBDmoPSvI=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/EnvironmentUtil
+ .class
+SHA1-Digest: gMT9jb/JNK8WWbhwwutbmGDrQ8s=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/elements/ZtPulsat
+ ingLabel.class
+SHA1-Digest: OC9dzINjkgCFJDdzPCUYIp9gO9c=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/EclipseProduct.
+ class
+SHA1-Digest: 9FkJ5ovF5hfQAY9HGo4Gv+uZwtk=
+
+Name: agent/eclipse-optimizer-agent.jar
+SHA1-Digest: 9iauM+iRuYkG9esMij6xF6apMIY=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/FadeUtil$2.clas
+ s
+SHA1-Digest: 7JhwwW6h1eRvJraMdAYO9g8HM8E=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/ReportMessag
+ e$InstalledJRebel.class
+SHA1-Digest: AF5NWihLOdhmD9NWteA1sy8aeJI=
+
+Name: lib/slf4j-api-1.7.10.jar
+SHA1-Digest: WzOPIGgn2IrNiQc59ACpt2ZOWYQ=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/Notific
+ ationManager$8$1.class
+SHA1-Digest: nLV5vUtvc+p8JfkLkCAKYD8cw88=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/AbstractUiElement
+ .class
+SHA1-Digest: ZOWw9c2gyeugVgVOI/2XDDw9Oio=
+
+Name: social/google+.png
+SHA1-Digest: oZxGUZhRNmypcoTzYW/hKM+geLo=
+
+Name: ok.png
+SHA1-Digest: MwIGhi5HDrtQr3/7SX/cbanpF4U=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmUnst
+ ableBooleanArgument.class
+SHA1-Digest: cmFykkK10u5lWSOKLLghpxZEMNY=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/SplashBody$1.clas
+ s
+SHA1-Digest: YAU5/ZqRP4hhF7NHGHqNWQnvdEQ=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/file
+ filter/AgeFileFilter.class
+SHA1-Digest: mSI9l3r41fQx/ygeB46hVOBgGao=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/Startup$3$1.class
+SHA1-Digest: 6HdiNA5kyedji5Ae8vwE6ZFBlgg=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/lang/St
+ ringUtils.class
+SHA1-Digest: WUly/jV25jv6m7qQIgcsivSUA4w=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/EclipseLogger$Logger
+ Instance.class
+SHA1-Digest: K5PObsRmGEaYtd2HqMhj3Smyfqc=
+
+Name: lib/jcl-over-slf4j-1.7.10.jar
+SHA1-Digest: zkmhiHIbw5y5cQs0aum37Cew82s=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ModelListener.class
+SHA1-Digest: DtrgrfUCPQ1x1jM86b4mBbNgRMM=
+
+Name: validation.png
+SHA1-Digest: QUJF0LUKrKTksPGimHwHioctAbM=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/ZtSeparator$2.cla
+ ss
+SHA1-Digest: IdSMLjHFf4aMC2DiH8j37bwNTTU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/eclipse/ini/Jvm
+ ArgumentList$1.class
+SHA1-Digest: IujGGp/A8RNid69p880TlVIaYB4=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/PopupNo
+ tification$1.class
+SHA1-Digest: XlWWnExEV38uGTKiW9E8oQ6KMWA=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/IssuesBody$2.clas
+ s
+SHA1-Digest: IynYM0FOXhJd91j3bxZdRWqr08Q=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/Startup$2.class
+SHA1-Digest: TtNy+3Euykm7qybWu7Y1XYaqcuY=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmArgu
+ mentType$16.class
+SHA1-Digest: MaQkUM+N6+4qWHxjNFo0j1iFASM=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/styledtext/Dele
+ gatingRunnable.class
+SHA1-Digest: +riCSef0DOLdIT4k/8Vntwtll1s=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/Versions$Eclips
+ e.class
+SHA1-Digest: A1lpDbQNTBY2Wv2jDPP4BmmzLkY=
+
+Name: logo.png
+SHA1-Digest: Ye/+wwIvG5GX93kXei/siPG8oMM=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/IssuesBody.class
+SHA1-Digest: ocWWNcN7ayxLTWTUeDmxxrt53Dk=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/IssuesBody$3.clas
+ s
+SHA1-Digest: 89tBX3xNLluRAKML0HdCYJZOkHA=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/signup/SignupProcess
+ .class
+SHA1-Digest: yOJT3ryOMhPVk+jR1zhFxeRSCTk=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/view/signup/FormU
+ til.class
+SHA1-Digest: CYnREwB1Vs2f+3aYxqeVtajkgnI=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/WindowErrorModel.
+ class
+SHA1-Digest: 0aQJi1/t0MDWWpl1JCVI0mdwdmo=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/FadeUtil$1.clas
+ s
+SHA1-Digest: C/s0MUrpSUz8FL1oC8skXjiVs5M=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmArgu
+ mentType$2.class
+SHA1-Digest: PEi2vu2eXyhWxcv7lDaoPv4spjc=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/view/signup/Signu
+ pForm$3.class
+SHA1-Digest: 9H5CHXlrMlG9PdMbKyw2aMDFy94=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/styledtext/Cust
+ omStyledText$2.class
+SHA1-Digest: Y1qpM4aHJw79mND0duyTYiijGmc=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/api/PeopleIm
+ pl.class
+SHA1-Digest: qzIPztPZtPYbcV9QzbF/FS321Qk=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/File
+ Utils.class
+SHA1-Digest: lr/oH8ZauXBr8QsneY8EUKXYU2I=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/jvmargs/JvmMemo
+ ryArgument.class
+SHA1-Digest: caxa2jkXtmiTwFV1uMFmnkVZTWM=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/commons/io/file
+ filter/DelegateFileFilter.class
+SHA1-Digest: NLKAw+M3jncWEekmRyK8TQCJ0OI=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/JavaVersion.cla
+ ss
+SHA1-Digest: vksPYV34bMeoBQkbzbtPV7IbW7w=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/OpenPluginWindowActi
+ on.class
+SHA1-Digest: 7Cp7dQy0lEUs+z+dSq7FhIw6hBs=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/PlainApplicationWind
+ owLayout.class
+SHA1-Digest: qLxdgtu+hBSEWqe2Flbms3TRnvA=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/ReportMessag
+ e$Installed.class
+SHA1-Digest: osGS1R8ofSDrNH9obTkjOa/MI8w=
+
+Name: lib/httpclient-4.4.jar
+SHA1-Digest: bSIEQcpoHd3FWhieroGkNzCRKLg=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/SplashBody$2.clas
+ s
+SHA1-Digest: w/AaZ59t8pXwIdr3N+0EZJSiu4w=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/signup/SignupPrefere
+ ncesStore.class
+SHA1-Digest: S5cUwbSe/zS6JnM5Gng7kgWDgnI=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/elements/ZtPulsat
+ ingLabel$1.class
+SHA1-Digest: EwtoUkVEgHt1jb+FwLbLGs0urYw=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/SignupBody$1.clas
+ s
+SHA1-Digest: /+jKFsCEVVceDbdPpvG5RE0J/AY=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/styledtext/Styl
+ eRangeBuilder.class
+SHA1-Digest: WORVswaL5zjAH3iCr+Yt/gQdQS8=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/api/MessageB
+ uilder.class
+SHA1-Digest: zMN8a916nuhRPnAaUmO7UEhB5eI=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/ReportMessag
+ e$FixedIssues.class
+SHA1-Digest: 9ryDCqlFz/LdtfsOwc6/FSmhHf0=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/WindowHeaderModel
+ .class
+SHA1-Digest: ztKr0NglY7jx6f/dLmKhmaKxKqs=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/AbstractStyle.class
+SHA1-Digest: EeSdq9DeL7ZYOMkpRQS3XrPCPeE=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/Notific
+ ationManager$4.class
+SHA1-Digest: nuMOZwy6bpA980Cdh8aJpw3kGZI=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ShellMover.class
+SHA1-Digest: pjgIM+XIOP/3hmunStOaWmHa1GU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/activities/AbstractA
+ ctivity.class
+SHA1-Digest: JcKtox3EsJpe1EPDRVESkKgqdIA=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/IssueActivityStat
+ usLabelStyle.class
+SHA1-Digest: FGWGNC0gZPy/WlrUUcefvtjV5h4=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/PluginWindowModel$Bo
+ otTimes.class
+SHA1-Digest: Sz3fmbzAtuX9pSMBC+/OmCOthew=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/metrics/SegmentIOBac
+ kend$Track.class
+SHA1-Digest: bXRsZ6TvXm08gMbDF71lh8s7gRE=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/SplashBodyModel.c
+ lass
+SHA1-Digest: e/e0+p6r3W1ZMDBMtRrH+sbf4rM=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/JvmSettings.cla
+ ss
+SHA1-Digest: qDQIuEYA7MgLFtmhaKHrVvlmyGs=
+
+Name: fonts/OpenSans-Bold.ttf
+SHA1-Digest: wWkegWiyWWr4oAFiusYNvmBenjY=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/FadeUtil$4.clas
+ s
+SHA1-Digest: MIy5iQRMWTN7BI/txXB7Xyw9L1w=
+
+Name: lib/slf4j-nop-1.7.10.jar
+SHA1-Digest: r/ok+ANEh/DNFnhpS4XWg8+w3MQ=
+
+Name: fonts/OpenSans-Regular.ttf
+SHA1-Digest: NWTtC1Nj31zyd8FuDGvtxaaCIX8=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/signup/BackendValida
+ tion.class
+SHA1-Digest: 5pG8MxBuHRRr9ikeNQ0StDgoLc4=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/eclipse/ini/Abs
+ tractEclipseOption.class
+SHA1-Digest: +47Yoze8umbrQzZNEc4vc5FCzDU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/elements/ZtTextbo
+ x$1.class
+SHA1-Digest: GiDp2Sqr5KUIAyI6yzTgNr4YFTk=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/ui/view/signup/FormV
+ alidator.class
+SHA1-Digest: rWt5PHebn58mkcZf8s+Bnp9SggU=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/BundleUtil.clas
+ s
+SHA1-Digest: omKI5/iH/RXm03huEBARw5G49iw=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/notification/Notific
+ ationManager$2$1.class
+SHA1-Digest: qcRJ49KwLusnlBcMRZe1nKErPdk=
+
+Name: com/zeroturnaround/eclipse/optimizer/plugin/util/styledtext/Open
+ UrlLinkCallback.class
+SHA1-Digest: CB6W5JO0F00DBW/16Qw9eXsQshc=
+
+Name: org/eclipse/wb/swt/SWTResourceManager.class
+SHA1-Digest: udmUeE7kXZ2KRfltggoZoASoid0=
+
